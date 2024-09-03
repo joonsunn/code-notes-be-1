@@ -8,3 +8,9 @@ node_modules
 .env.development.local
 .env.production
 .env.production.local
+
+requests
+
+database.sqlite
+
+.vscode

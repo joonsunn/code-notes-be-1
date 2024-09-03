@@ -9,10 +9,21 @@
     "strict": true,
     "skipLibCheck": true,
     "baseUrl": "src",
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "typeRoots": ["./node_modules/@types", "./src/types"],
     "paths": {
       "@src/*": ["*"],
-      "@service/*": ["service/*"],
-      "@controller/*": ["controller/*"]
+      "@services/*": ["services/*"],
+      "@controllers/*": ["controllers/*"],
+      "@utils/*": ["utils/*"],
+      "@config/*": ["config/*"],
+      "@routes/*": ["routes/*"],
+      "@middlewares/*": ["middlewares/*"],
+      "@libs/*": ["libs/*"],
+      "@models/*": ["models/*"],
+      "@types/*": ["src/types/*"]
     }
-  }
+  },
+  "include": ["src/**/*.ts"]
 }
