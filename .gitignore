@@ -11,6 +11,8 @@ node_modules
 
 requests
 
-database.sqlite
+*.sqlite
 
 .vscode
+
+dist
